@@ -1,0 +1,690 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body    {
+    overflow-x: hidden;
+    font-family: Nunito Sans;
+   
+}
+header  {
+    background:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('/assets/images/headerbg.png');
+    opacity: 0.9;
+    height: 709px;
+
+}
+#artist-logo    {
+    font-size: 30px;
+    line-height: 41px;
+    font-family: Nunito Sans;
+}
+#nav-text  {
+    font-size: 25px;
+    line-height: 38px;
+    font-family: Overpass;
+}
+#nav-text:hover {
+    background: #3B5999;
+    border-radius: 10px;
+}
+/* .navbar-nav li.active::after    {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    width: 70%;
+    content: " ";
+    color: #3B5999;
+    border-bottom: 3px solid #3B5999;
+} */
+.navbar-nav .active>.nav-link   {
+    border-bottom: 3px solid #3B5999;
+}
+
+#hero-heading   {
+    font-family: 'Oswald';
+    font-size: 100px;
+    
+    color: #3B5999;
+    font-weight: 300;
+}
+.hero-heading-span  {
+    color: #ffffff;
+}
+#hero-paragraph {
+    font-family: Nunito Sans;
+    font-size: 22px;
+    line-height: 30px;
+}
+#contact-me {
+    width: 285px;
+    height: 96px;
+    background: #3B5999;
+    color: white;
+    font-size: 30px;
+    line-height: 41px;
+    border-radius: 70px;
+    border: none;
+}
+#learn-more {
+    width: 285px;
+    height: 96px;
+    background: none;
+    color: white;
+    font-size: 30px;
+    line-height: 41px;
+    border-radius: 70px;
+    border: 2px solid #3B5999;
+}
+#link-text  {
+    color: #656565;
+    font-size: 17px;
+    font-weight: 600;
+}
+#about-header   {
+    font-family: Nunito Sans;
+    font-size: 34px;
+    font-weight: 600;
+    color: #656565;
+}
+#about-paragraph    {
+    font-family: Nunito Sans;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #656565;
+}
+#about-btn  {
+    width: 345px;
+    height: 96px;
+    background: #3B5999;
+    border: none;
+    border-radius: 70px;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+#whatido-section    {
+    background: #FEF2F2;
+
+}
+#whatido-box-cover  {
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 5%;
+}
+#whatido-box-cover2  {
+    display: flex;
+    justify-content: space-around;
+    margin: 4% 5%;
+}
+#whatido-box1, #whatido-box2, #whatido-box3, #whatido-box4   {
+    flex-basis: 23%;
+
+}
+#whatido-box5, #whatido-box6, #whatido-box7, #whatido-box8   {
+    flex-basis: 23%;
+
+}
+#whatido-header {
+    font-size: 34px;
+    line-height: 46px;
+    font-weight: 600;
+    color:  #656565;
+}
+#whatido-icon   {
+background: #FEF2F2;
+border-bottom-left-radius: 50%;
+border-bottom-right-radius: 50%;
+top: 0;
+padding-bottom: 10px;
+}
+#whatido-subheader  {
+    font-family: Nunito Sans;
+    font-size: 28px;
+    line-height: 38px;
+    color: #656565;
+    text-align: center;
+}
+#whatido-paragraph  {
+    font-family: Nunito Sans;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    font-weight: 300px;
+    color: #656565;
+}
+
+#portfolio-header   {
+    font-family: Nunito Sans;
+    font-size: 34px;
+    line-height: 46px;
+    font-weight: 600;
+    color: #656565;
+}
+#portfolio-paragraph    {
+    font-family: Nunito Sans;
+    font-size: 18px;
+    line-height: 30px;
+    color: #656565;
+}
+#howitworks-section {
+    background: #FEF2F2;
+}
+#howitworks-header   {
+    font-family: Nunito Sans;
+    font-size: 34px;
+    line-height: 46px;
+    font-weight: 600;
+    color: #656565;
+}
+#howitworks-paragraph    {
+    font-family: Nunito Sans;
+    font-size: 18px;
+    line-height: 30px;
+    color: #656565;
+}
+#howitworks-boxes   {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% auto;
+   
+}
+#howitworks-box {
+    flex-basis: 30%;
+    padding: 10px 20px;
+}
+#number-one {
+    height: 54px;
+    width: 54px;
+    background: #FF7F7D;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+}
+#number-two {
+    height: 54px;
+    width: 54px;
+    padding: 15px;
+    background: #FEAB1D;
+    border: none;
+    border-radius: 50%;
+}
+
+#number-three {
+    height: 54px;
+    width: 54px;
+    padding: 15px;
+    background: #56D3D5;
+    border: none;
+    border-radius: 50%;
+}
+#howitworks-box-header {
+    font-family: Nunito Sans;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    color:  #656565;
+}
+#howitworks-box-paragraph   {
+    font-family: Nunito Sans;
+    font-size: 14px;
+    line-height: 20px;
+    color:  #656565;
+}
+#newsfeed-heading   {
+    font-family: Nunito Sans;
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 600;
+    color:  #656565;
+}
+#newsfeed-paragraph {
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color:  #656565;
+}
+#date, #user    {
+    font-size: 12px;
+    color: #9F9999;
+    line-height: 30px;
+    text-align: left;
+}
+#card-heading   {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #656565;
+}
+#card-paragraph {
+    font-size: 10px;
+    line-height: 14px;
+    color: #656565;
+}
+#news-btn   {
+    width: 79px;
+    height: 30px;
+    background: #3B5999;
+    color: #ffffff;
+    border: none;
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: 600;
+}
+
+#getintouch-section {
+    background: #FEF2F2;
+}
+#getintouch-header {
+    font-size: 34px;
+    line-height: 46px;
+    font-weight: 600;
+    color:  #656565;
+}
+#getintouch-paragraph   {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    color:  #656565;
+}
+#input {
+    border: 1px solid white;
+}
+select{
+   border: none;
+}
+#contact-submit-btn   {
+    width: 271px;
+    height: 96px;
+    background:  #3B5999;
+    border-radius: 70px;
+    border: none;
+    font-size: 30px;
+    line-height: 41px;
+    color: white;
+}
+
+#address    {
+    background:linear-gradient(rgba(13, 18, 30, 0.89), rgba(13, 18, 30, 0.89)), url('/assets/images/image\ 16.png');
+    opacity: 0.9;
+}
+#phone-number    {
+    background:linear-gradient(rgba(3, 14, 38, 0.89), rgba(3, 14, 38, 0.89)), url('/assets/images/image\ 17.png');
+    opacity: 0.9;
+}
+#address-heading, #phone-heading    {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 600;
+}
+#address-paragraph, #phone-paragraph  {
+    font-size: 14px;
+    line-height: 20px;
+    color: #BBBBBB;
+}
+#footer-section {
+    background: #ffffff;
+}
+#facebook-box   {
+    background: #3B5999;
+    /* height: 126px; */
+}
+#dribbble-box   {
+    background: #EA4C89;
+}
+#twitter-box    {
+    background: #007EE5;
+}
+#headset-box    {
+   background: #01D1C1;
+}
+i   {
+    margin-right: 10px;
+}
+#social-media   {
+    font-size: 30px;
+    line-height: 41px;
+}
+
+
+/* * Media Queries */ 
+/* Mobile */
+@media(max-width: 799px) {
+    
+    header  {
+        background:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('/assets/images/image\ 19.png');
+        opacity: 0.9;
+        height: auto;
+    
+    
+    }
+    #artist-logo    {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    #nav-text  {
+        font-size: 12px;
+        line-height: 21px;
+        text-align: center;
+    }
+    #hero-img   {
+        display: none;
+    }
+    #hero-heading   {
+        font-size: 33px;
+        text-align: center;
+    }
+    #message-icon   {
+        display: none;
+    }
+    #hero-paragraph {
+        font-size: 10px;
+        line-height: 14px;
+        text-align: center;
+    }
+    #contact-me {
+        width: 73px;
+        height: 22px;
+       
+        font-size: 8px;
+        line-height: 11px;
+       
+    }
+    #learn-more {
+        width: 73px;
+        height: 22px;
+       
+        font-size: 8px;
+        line-height: 11px;
+    }
+    #link-section {
+        display: none;
+    }
+    #about-header   {
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+    }
+    #about-paragraph    {
+        font-size: 8px;
+        line-height: 12px;
+        text-align: center;
+    }
+    #aboutme-img    {
+        display: none;
+    }
+    #about-btn  {
+        width: 73px;
+        height: 22px;
+        font-size: 8px;
+        line-height: 11px;
+    }
+    
+    #whatido-box-cover  {
+        display: flex;
+        justify-content: space-around;
+        margin: 2% 5%;
+         flex-wrap: wrap;
+    }
+    #whatido-box-cover2  {
+        display: flex;
+        justify-content: space-around;
+        margin: 4% 5%;
+        flex-wrap: wrap;
+    }
+    #whatido-box1{
+        flex-basis: 45%;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    #whatido-box2{
+        flex-basis: 45%;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    #whatido-box3{
+        flex-basis: 45%;
+        flex-direction: row;
+    
+    }
+
+    #whatido-box4 {
+        flex-basis: 45%;
+        flex-direction: row; 
+    }
+
+    #whatido-box5  {
+        flex-basis: 45%;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    #whatido-box6  {
+        flex-basis: 45%;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    #whatido-box7  {
+        flex-basis: 45%;
+        flex-direction: row;
+    
+    }
+    #whatido-box8  {
+        flex-basis: 45%;
+        flex-direction: row;
+    
+    }
+    #whatido-header {
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+      
+    }
+   
+    #whatido-subheader  {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    #whatido-paragraph  {
+        font-size: 7px;
+        line-height: 11px;
+       
+    }
+    #portfolio-header   {
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+      
+    }
+    #portfolio-paragraph    {
+        font-size: 8px;
+        line-height: 12px;
+       
+    }
+   
+    #howitworks-header   {
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+       
+    }
+    #howitworks-paragraph    {
+        font-size: 8px;
+        line-height: 12px;
+    }
+    #howitworks-boxes   {
+        display: flex;
+        justify-content: space-between;
+        margin: 10% auto;
+        flex-wrap: wrap;
+       
+    }
+    #howitworks-box {
+        flex-basis: 90%;
+        padding: 10px 20px;
+        flex-direction: row;
+    }
+    #number-one {
+        height: 22px;
+        width: 22px;
+        padding: 5px;
+        font-size: 8px;
+    }
+    #number-two {
+        height: 22px;
+        width: 22px;
+        padding: 5px;
+        font-size: 8px;
+       
+    }
+    
+    #number-three {
+        height: 22px;
+        width: 22px;
+        padding: 5px;
+        font-size: 8px;
+       
+    }
+    #howitworks-box-header {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    #howitworks-box-paragraph   {
+        font-size: 10px;
+        line-height: 15px;
+       
+    }
+    #newsfeed-heading   {
+        font-size: 20px;
+        line-height: 27px;
+        
+    }
+    #newsfeed-paragraph {
+        font-size: 8px;
+        line-height: 15px;
+    }
+    #date, #user    {
+        font-size: 8px;
+        color: #9F9999;
+        line-height: 16px;
+        text-align: left;
+    }
+    #card-heading   {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    #news-btn   {
+        width: 79px;
+        height: 30px;
+        font-size: 6px;
+        line-height: 14px;
+    }
+    #getintouch-header {
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+       
+    }
+    #getintouch-paragraph   {
+        font-size: 8px;
+        line-height: 15px;
+        text-align: center;
+    }
+    #address-box    {
+        display: none;
+    }
+
+/* Dropdown */
+/*  */
+
+/* Dropdown */
+
+
+    
+   
+    #contact-submit-btn   {
+        width: 73px;
+        height: 22px;
+        font-size: 8px;
+        line-height: 11px;
+    }
+   
+    i   {
+        margin-right: 3px;
+    }
+    #social-media   {
+        font-size: 5px;
+        line-height: 10px;
+    }
+    
+    
+}
+
+/* Tablets and Ipads   */
+@media(min-width: 800px) and (max-width: 1024px) {
+    header  {
+        background:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('/assets/images/image\ 19.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.9;
+        height: 600px;
+    
+    
+    }
+    
+    #hero-img   {
+        display: none;
+    }
+    #hero-heading   {
+       
+        text-align: center;
+    }
+    #nav-text  {
+        font-size: 18px;
+       
+    }
+    
+    #hero-paragraph {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    #contact-me {
+        width: 205px;
+        height: 74px;
+        font-size: 20px;
+       
+    }
+    #learn-more {
+        width: 205px;
+        height: 74px;
+        font-size: 20px;
+    }
+
+    #howitworks-box-header {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    #date, #user    {
+        font-size: 5px;
+        color: #9F9999;
+        line-height: 16px;
+        text-align: left;
+    }
+    #news-btn   {
+        width: 85px;
+        height: 30px;
+        font-size: 6px;
+        line-height: 14px;
+    }
+    #social-media   {
+        font-size: 20px;
+        line-height: 41px;
+    }
+
+    
+  
+}

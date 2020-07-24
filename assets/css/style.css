@@ -2,10 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
+}
+html    {
+    scroll-behavior: smooth;
 }
 body    {
-    overflow-x: hidden;
     font-family: Nunito Sans;
+   overflow-x: hidden;
    
 }
 header  {
@@ -24,23 +28,28 @@ header  {
     line-height: 38px;
     font-family: Overpass;
 }
-#nav-text:hover {
-    background: #3B5999;
-    border-radius: 10px;
-}
-/* .navbar-nav li.active::after    {
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    right: 0;
+
+
+.nav-item > a:after{
+    content: '';
+    display: block;
+    height: 1.5px;
     width: 70%;
-    content: " ";
-    color: #3B5999;
+    background: #3B5999;
+    transform: scaleX(0);
+    transition: transform .3s;
+}
+.nav-item > a:hover:after{
+    transform: scaleX(1);
+    transition: transform .3s;
+}
+
+.active{
+    color: #3B5999 !important;
+}
+/* .navbar-nav .active>.nav-link   {
     border-bottom: 3px solid #3B5999;
 } */
-.navbar-nav .active>.nav-link   {
-    border-bottom: 3px solid #3B5999;
-}
 
 #hero-heading   {
     font-family: 'Oswald';
@@ -254,6 +263,9 @@ padding-bottom: 10px;
     line-height: 30px;
     text-align: left;
 }
+.card   {
+    padding: 0 !important;
+}
 #card-heading   {
     font-size: 17px;
     font-weight: 600;
@@ -329,26 +341,44 @@ select{
 #footer-section {
     background: #ffffff;
 }
-#facebook-box   {
+
+/* new */
+#facebook-btn   {
     background: #3B5999;
-    /* height: 126px; */
+    font-size: 30px;
+    line-height: 41px;
+    color: white;
+    border: none;
+    box-shadow: none;
 }
-#dribbble-box   {
+#dribble-btn   {
     background: #EA4C89;
+    font-size: 30px;
+    line-height: 41px;
+    color: white;
+    border: none;
+    box-shadow: none;
 }
-#twitter-box    {
+#twitter-btn   {
     background: #007EE5;
+    font-size: 30px;
+    line-height: 41px;
+    color: white;
+    border: none;
+    box-shadow: none;
 }
-#headset-box    {
-   background: #01D1C1;
+#support-btn   {
+    background: #01D1C1;
+    font-size: 30px;
+    line-height: 41px;
+    color: white;
+    border: none;
+    box-shadow: none;
 }
 i   {
     margin-right: 10px;
 }
-#social-media   {
-    font-size: 30px;
-    line-height: 41px;
-}
+
 
 
 /* * Media Queries */ 
@@ -616,9 +646,22 @@ i   {
     i   {
         margin-right: 3px;
     }
-    #social-media   {
+    
+    #facebook-btn   {
         font-size: 5px;
-        line-height: 10px;
+        line-height: 10px
+    }
+    #dribble-btn   {
+        font-size: 5px;
+        line-height: 10px;  
+    }
+    #twitter-btn   {
+        font-size: 5px;
+        line-height: 10px
+    }
+    #support-btn   {
+        font-size: 5px;
+        line-height: 10px
     }
     
     
@@ -641,6 +684,9 @@ i   {
     }
     #hero-heading   {
        
+        text-align: center;
+    }
+    #hero-paragraph {
         text-align: center;
     }
     #nav-text  {
@@ -675,16 +721,30 @@ i   {
         text-align: left;
     }
     #news-btn   {
-        width: 85px;
+       
         height: 30px;
-        font-size: 6px;
+        font-size: 5px;
         line-height: 14px;
     }
-    #social-media   {
+   i    {
+       margin-right: 5px;
+   }
+    #facebook-btn   {
         font-size: 20px;
-        line-height: 41px;
+        line-height: 41px
     }
-
+    #dribble-btn   {
+        font-size: 20px;
+        line-height: 41px 
+    }
+    #twitter-btn   {
+        font-size: 20px;
+        line-height: 41px
+    }
+    #support-btn   {
+        font-size: 20px;
+        line-height: 41px
+    }
     
   
 }

@@ -67,46 +67,46 @@
                </li>
                
              </ul>
-             <div class=" my-2 my-lg-0 ml-1 ml-md-4 mr-5">
+             <div class=" my-2 my-lg-0 ml-1 ml-lg-2 mr-5">
                
                <img id="message-icon" src="/assets/images/messagebox.png" alt="message">
              </div>
            </div>
      </nav>
     <!-- hero section -->
-     <section id="hero-section" class="mb-5">
-        
-             <div class="row col-12 justify-content-center">
-             
+    <section class="row" id="hero-section">
+        <div class="row col-12 justify-content-between" >
             
-    <div class="col-10 col-xl-6 ml-auto ml-xl-0"  >
-             <h1 class="col-10 col-xl-7" id="hero-heading">Art & <span class="hero-heading-span">Rhyme</span></h1>
-    <p id="hero-paragraph" class="text-white  col-10 col-lg-9 my-3 my-lg-5">Start to fnish Illustration course from world famous author Jane Doe.</p>
+           
+    <div class="col-10 col-xl-6 ml-auto ml-xl-0" >
+            <h1 class="col-10 col-xl-7 ml-0 ml-xl-2" id="hero-heading">Art & <span class="hero-heading-span">Rhyme</span></h1>
+    <p id="hero-paragraph" class="text-white  col-9 col-lg-9 my-3 my-lg-5 ml-0 ml-xl-2">Start to fnish Illustration course from world famous author Jane Doe.</p>
     
-    <div class="row col-9 col-lg-12 mt-2 mb-4 mb-lg-0 mt-lg-5 ml-0 ml-lg-0 justify-content-center justify-content-lg-start " id="hero-buttons" >
-        <div class="col-5 mr-3 mr-lg-3">
-            <button id="contact-me">Contact me</button>
+    <div class="row col-8 col-lg-12 mt-2 mb-4 mb-lg-0 mt-lg-5 ml-2 ml-lg-0 justify-content-center justify-content-lg-start " id="hero-buttons" >
+       <div class="col-5 mr-3 mr-lg-5 mr-xl-5">
+           <button id="contact-me">Contact me</button>
+       </div>
+       <div class="col-5">
+            <button id="learn-more">Learn more</button>
+       </div> 
         </div>
-        <div class="col-5">
-             <button id="learn-more">Learn more</button>
-        </div> 
-         </div>
-         
-       
+        
+      
     </div>
-    <div class="col-5 ml-5" id="hero-img">
-        <img  src="/assets/images/wasec.png" alt="">
-    </div>
-         </div>
-         
     
-     </section>
+    <img class="img-fluid col-6 w-100 ml-5"  src="/assets/images/headerimg.png" alt="" id="hero-img">
+    
+       <!-- <img class="col-6 w-100 ml-5"  src="/assets/images/wasec.png" alt="" id="hero-img"> -->
+    
+        </div>
+    
+    </section>
     
     </header>
     <!-- body section -->
     <section id="body-container">
     <!-- link section -->
-    <section class="row col-12" id="link-section">
+    <section class="row col-12 mb-4" id="link-section">
         <ul class="d-inline mx-auto my-4">
             <li class="d-inline"><a id="link-text" class="mr-4" href="#">Lynda<span style="color: rgb(221, 215, 215);">.com</span></a></li>
             <li class="d-inline"><a id="link-text" class="mx-4" href="#">SKILLSHARE</a></li>
@@ -143,7 +143,7 @@
             <div id="whatido-box1" class="bg-white px-3 pb-3">
     
                 <div class="mx-auto col-4" id="whatido-icon">
-                   <img class="img-fluid d-block mx-auto" src="/assets/images/image 6.png" alt="house">
+                   <img class="img-fluid d-block mx-auto" src="/assets/images/image 6.png" alt="house" id="whatido-house-icon">
                 </div> 
     
                 <h6 class="my-3" id="whatido-subheader">House Painting</h6>
@@ -209,14 +209,31 @@
     </section>
     
     <!-- Portfolio section -->
-    <section id="portfolio-section">
+    <section class="mb-5" id="portfolio-section">
         <div class="container-fluid">
             <div class="col-12 ml-0 ml-lg-5" >
         <h4 class="col-12 col-lg-2 ml-0 ml-lg-3 mt-5" id="portfolio-header">My Portfolio</h4>
         <p class="col-12 col-lg-7 my-3 my-lg-5 ml-0 ml-lg-3" id="portfolio-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed ipsum tincidunt, pharetra leo in, auctor diam. Pellentesque mattis sed erat vel ultrices. Mauris lorem ligula, bibendum et mauris sed, semper porta libero. Phasellus dictum purus urna, ut varius lorem elementum mattis. In blandit, risus quis dictum malesuada, neque lacus elementum sem, nec malesuada sem lacus eget orci. Cras lacinia porttitor porta. Praesent tempus vulputate gravida. Proin tristique feugiat dignissim. </p>
     
-        <img class="img-fluid d-block col-11 mx-3 mx-lg-1 mx-xl-3 my-3 my-lg-5 " src="/assets/images/image 9.png" alt="portfolio" data-aos="zoom-in-up">
-    </div>
+        </div>
+        <div class="d-block d-lg-flex col-11 mx-auto" data-aos="zoom-in-up" >
+            <div class="col-4 col-11 col-lg-4 ml-3 ml-lg-0" id="portfolio-images">
+                <img class="img-fluid" src="/assets/images/jeremy-lishner-tKgcMR8saYA-unsplash.png" alt="jeremy">
+            </div>
+            <div class=" col- d-flex flex-column h-100 my-3 my-lg-0">
+                <div class="col-12 mb-1 mb-lg-3">
+                    <img class="img-fluid" src="/assets/images/jean-philippe-delberghe-vlQnJZ5rOwY-unsplash.png" alt="jean">
+                </div>
+                <div class="col-12">
+                     <img class="img-fluid" src="/assets/images/gustavo-centurion-O6fs4ablxw8-unsplash.png" alt="gustavo">
+                </div>
+            </div>
+            <div class="col-4 col-11 col-lg-4 ml-3 ml-lg-0" id="portfolio-images">
+                <img class="img-fluid" src="/assets/images/pavel-nekoranec-8ALBNshSZTE-unsplash.png" alt="pavel">
+            </div>
+        </div>
+        <!-- <img class="img-fluid d-block col-11 mx-3 mx-lg-1 mx-xl-3 my-3 my-lg-5 " src="/assets/images/image 9.png" alt="portfolio" data-aos="zoom-in-up"> -->
+    
         </div>
     
     </section>
@@ -336,29 +353,27 @@
         <div class="row justify-content-center container-fluid">
              <div class="col-12 col-lg-6 col-xl-7 mx-1 mx-lg-5" >
             <h4 class="col-12 col-lg-4 col-xl-3 ml-0 ml-lg-2 my-3" id="getintouch-header">Get in Touch</h4>
-            <p class="col-11" id="getintouch-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed ipsum tincidunt, pharetra leo in, auctor diam. Pellentesque mattis sed erat vel ultrices. Mauris lorem ligula, bibendum et mauris sed, semper porta libero. Phasellus dictum purus urna, </p>
+            <p class="col-11 ml-lg-2" id="getintouch-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed ipsum tincidunt, pharetra leo in, auctor diam. Pellentesque mattis sed erat vel ultrices. Mauris lorem ligula, bibendum et mauris sed, semper porta libero. Phasellus dictum purus urna, </p>
     
-            <form class="col-12 form-group ml-0  ml-lg-2 justify-content-between"  action="">
+            <form class="col-12 form-group input-group-lg ml-0  ml-lg-2 justify-content-between"  action="">
                 <div class="row justify-content-between" >
                     <div class="col-12 col-lg-6 my-3">
-                        <input id="input" class="form-control input-lg col-12 ml-0  ml-lg-2" type="text" placeholder="Enter your first name" >
+                        <input id="input" class="form-control form-control-lg input-group-lg col-12 ml-0  ml-lg-2" type="text" placeholder="Enter your first name" required >
                     </div>
                     <div class="col-12  col-lg-6 my-3">
-                        <input id="input-box" class="form-control input-lg col-12 col-lg-12  " type="email" placeholder="Enter your last name" >
+                        <input id="input-box" class="form-control form-control-lg input-lg col-12 col-lg-12  " type="email" placeholder="Enter your last name" required>
                     </div>
                 </div>
                 <div class="row justify-content-between" >
                     <div class="col-12  col-lg-6 my-3">
-                        <input id="input" class="form-control col-12 ml-0  ml-lg-2" type="text" placeholder="Enter your email address">
+                        <input id="input" class="form-control form-control-lg col-12 ml-0  ml-lg-2" type="text" placeholder="Enter your email address" required>
                     </div>
     
-                      <div class=" col-11 ml-3 ml-lg-0 col-lg-6 my-3">
-                          <select class="form-control w-100 ">
-                        <option>Painting</option>
-                        <option>Painting</option>
-                        <option>Painting</option>
-                    </select>
-                      </div>
+                    <div class="col-12  col-lg-6 my-3">
+                        <input id="input" class="form-control form-control-lg col-12 ml-0 " type="text" placeholder="Painting" required>
+                    </div>
+    
+                     
                       
     
                     
@@ -372,7 +387,7 @@
                 
             </form>
         </div>
-        <div id="address-box" class="col-4 mx-auto mt-3 "  >
+        <div id="address-box" class="col-4 mx-auto mt-5 " >
             <div id="right-section">
             <div class="row px-5 pt-4" id="address">
                  <h6 class=" col-10 text-white" id="address-heading">Office Address</h6>
@@ -394,7 +409,7 @@
     </section>
     </section>
     <!-- Footer section -->
-    <footer id="footer-section" class=" mt-2 mt-lg-5">
+    <footer id="footer-section" class=" mt-2 mt-lg-5" style="max-width: 100%;">
         <div class="row mt-2 mt-lg-5 col-12">
             <button class="col-3 py-3" id="facebook-btn"><i class="fa fa-facebook" aria-hidden="true"></i>Follow on Facebook</button>
             <button class="col-3 py-3 " id="dribble-btn"><i class="fa fa-dribbble" aria-hidden="true"></i>Follow on Dribbble</button>

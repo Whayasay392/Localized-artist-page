@@ -45,11 +45,25 @@ header  {
 }
 
 .active{
+   
     color: #3B5999 !important;
 }
-/* .navbar-nav .active>.nav-link   {
-    border-bottom: 3px solid #3B5999;
-} */
+#message-icon   {
+    transition: transform .2s;
+}
+#message-icon:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+  #hero-img   {
+       position: absolute;
+       /* right: -10rem; */
+      /* width: 877px ;
+    height: 726px; */
+    right: 0 !important;
+  }
 
 #hero-heading   {
     font-family: 'Oswald';
@@ -75,6 +89,12 @@ header  {
     line-height: 41px;
     border-radius: 70px;
     border: none;
+    transition: transform .2s;
+}
+#contact-me:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 #learn-more {
     width: 285px;
@@ -85,6 +105,12 @@ header  {
     line-height: 41px;
     border-radius: 70px;
     border: 2px solid #3B5999;
+    transition: transform .2s;
+}
+#learn-more:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 #link-text  {
     color: #656565;
@@ -113,6 +139,12 @@ header  {
     color: #ffffff;
     font-size: 30px;
     line-height: 41px;
+    transition: transform .2s;
+}
+#about-btn:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 #whatido-section    {
@@ -149,7 +181,14 @@ border-bottom-left-radius: 50%;
 border-bottom-right-radius: 50%;
 top: 0;
 padding-bottom: 10px;
+transition: transform .2s;
 }
+#whatido-icon:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
 #whatido-subheader  {
     font-family: Nunito Sans;
     font-size: 28px;
@@ -178,6 +217,14 @@ padding-bottom: 10px;
     font-size: 18px;
     line-height: 30px;
     color: #656565;
+}
+#portfolio-images   {
+    transition: transform .2s;
+}
+#portfolio-images:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 #howitworks-section {
     background: #FEF2F2;
@@ -304,7 +351,8 @@ padding-bottom: 10px;
     color:  #656565;
 }
 #input {
-    border: 1px solid white;
+    color: #B5B3B3 !important;
+    
 }
 select{
    border: none;
@@ -318,6 +366,12 @@ select{
     font-size: 30px;
     line-height: 41px;
     color: white;
+    transition: transform .2s;
+}
+#contact-submit-btn:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 #address    {
